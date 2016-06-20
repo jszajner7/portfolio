@@ -1,0 +1,74 @@
+body {
+    /*typography Declarations*/
+    color: *222222;
+    font-size: 1em;
+    font-family: "Indie Flower", "Lobster";
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+    text-align: center;
+}
+
+.masthead {
+    padding: 6em 0;
+    background-image: url(https://static.pexels.com/photos/4258/wood-nature-leaves-tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-size: 2rem
+}
+
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.intoduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /*Typography Declarations*/
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: white;
+    background-color: #ff55;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /*Layout*/
+    margin: 2em 0 1em 0;
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        text-align: center;
+        margin-top: -0.2em;
+        font-family: "Open Sans", "Helvetica Neue", sans-seif;
+        font-weight: bold;
+        color: white;
+        font-size: 4rem;
+        letter-spacing: -0.02em;
+    }
+}
